@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?attr/colorOutline">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvAvailabilityDot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="●"
+                android:textSize="18sp"
+                android:layout_marginEnd="6dp" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="User name" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvStatusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="status text"
+            android:textSize="13sp"
+            android:alpha="0.9"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tvLastActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last active: —"
+            android:textSize="12sp"
+            android:alpha="0.7"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <color name="cs_background">#FFF7F7F7</color>
+    <color name="cs_on_background">#FF000000</color>
+
+    <color name="cs_surface">#FFFFFFFF</color>
+    <color name="cs_on_surface">#FF1A1A1A</color>
+
+    <color name="cs_outline">#33000000</color>
+
+    <color name="purple_primary">#FF6750A4</color>
+    <color name="purple_on_primary">#FFFFFFFF</color>
+    <color name="purple_primary_container">#FFEADDFF</color>
+    <color name="purple_on_primary_container">#FF21005D</color>
+
 </resources>

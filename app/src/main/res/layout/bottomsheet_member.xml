@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvAvailabilityDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="●"
+            android:textSize="24sp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="User Name" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status text…"
+        android:textSize="15sp"
+        android:alpha="0.9"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/tvLastActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last active: —"
+        android:textSize="13sp"
+        android:alpha="0.7"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvPersonalPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal phone: —"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/tvCompanyPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company phone: —"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tvInternalEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Internal email: —"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="18dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="View profile"
+            android:visibility="gone" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Close" />
+    </LinearLayout>
+</LinearLayout>
