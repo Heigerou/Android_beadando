@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cs_background">#FF121212</color>
+    <color name="cs_on_background">#FFE4E4E4</color>
+
+    <color name="cs_surface">#FF1E1E1E</color>
+    <color name="cs_on_surface">#FFFFFFFF</color>
+
+    <color name="cs_outline">#44FFFFFF</color>
+
+    <color name="purple_primary">#FFCFBCFF</color>
+    <color name="purple_on_primary">#FF381E72</color>
+    <color name="purple_primary_container">#FF4F378B</color>
+    <color name="purple_on_primary_container">#FFEADDFF</color>
+
+</resources>
